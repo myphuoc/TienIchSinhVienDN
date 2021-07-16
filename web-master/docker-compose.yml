@@ -1,0 +1,16 @@
+version: '3.7'
+
+networks: 
+    net_time_management:
+
+services: 
+    web:
+        image: time-management-client
+        build: 
+            context: .
+            dockerfile: Dockerfile
+        restart: always
+        ports: 
+          - '30052:3000'
+        networks: 
+          - net_time_management

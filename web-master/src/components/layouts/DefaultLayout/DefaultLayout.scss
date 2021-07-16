@@ -1,0 +1,90 @@
+.ant-layout {
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+    &:hover {
+      color: #1890ff;
+    }
+  }
+  
+  .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+
+  .ant-layout-content {
+    margin: 20px;
+    padding: 24px;
+    min-height: 1000px;
+  }
+
+  .site-layout-background {
+    background: #fff;
+  }
+
+  .ant-layout-sider {
+    min-height: 100vh;
+  }
+}
+
+.menu-drawer {
+  .ant-drawer-body {
+    padding-top: 40px;
+  }
+  .ant-menu-vertical {
+    border: unset;
+  }
+}
+
+.username {
+  margin-left: 5px;
+  margin-right: 5px;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: -8px;
+}
+
+.ck-content {
+  min-height: 250px !important;
+}
+
+.d-flex {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+.justify-content__space-between {
+  justify-content: space-between !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.btn-danger {
+  color: white!important;
+  border-color: red!important;
+  background-color: red!important;
+}
+
+.btn-warning {
+  color: white!important;
+  border-color: orange!important;
+  background-color: orange!important;
+}
+
+.btn-success {
+  color: white!important;
+  border-color: #28a745!important;
+  background-color: #28a745!important;
+}

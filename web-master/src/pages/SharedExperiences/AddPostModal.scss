@@ -1,0 +1,28 @@
+.expanding {
+  
+  .ant-modal-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    .ant-modal-body {
+      width: 100%;
+      height: 85%;
+      overflow-y: scroll;
+    }
+  }
+
+  .ck-content {
+    height: 400px;
+  }
+}
+
+.expandable {
+  cursor: pointer;
+  position: absolute;
+  color: rgb(122, 122, 122);
+  top: 17px;
+  right: 60px;
+}

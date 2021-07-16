@@ -1,0 +1,82 @@
+@import "~antd/dist/antd.css";
+
+#root {
+  height: 100%;
+}
+
+// print area
+.print-area {
+  padding: 35px 35px;
+
+  .ant-table-content {
+    overflow-x: hidden !important;
+  }
+
+  table {
+    page-break-inside: auto;
+  }
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 0 10px #d2d2d2;
+}
+
+.site-page-header {
+  padding: 0 !important;
+  margin: 0 0 12px 0 !important;
+  position: relative;
+  span {
+    color: #1890ff;
+    border-bottom: 4px solid #1890ff;
+  }
+}
+
+// custom background
+.bg-green-gradient {
+  background: #00b09b;
+  background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
+  background: linear-gradient(to right, #96c93d, #00b09b);
+}
+
+.bg-pink-gradient {
+  background: #800080;
+  background: -webkit-linear-gradient(to right, #ffc0cb, #800080);
+  background: linear-gradient(to right, #ffc0cb, #800080);
+}
+
+.bg-orange-gradient {
+  background: #fc4a1a;
+  background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);
+  background: linear-gradient(to right, #f7b733, #fc4a1a);
+}
+
+.bg-blue-gradient {
+  background: #74ebd5;
+  background: -webkit-linear-gradient(to right, #acb6e5, #74ebd5);
+  background: linear-gradient(to right, #acb6e5, #74ebd5);
+}
+
+// custom grid
+// xs
+@media only screen and (max-width: 575px) {
+  .xs-none {
+    display: none !important;
+  }
+  .xs-block {
+    display: block !important;
+  }
+}
+
+// sm
+@media only screen and (min-width: 576px) {
+  .sm-none {
+    display: none !important;
+  }
+  .sm-block {
+    display: block !important;
+  }
+}

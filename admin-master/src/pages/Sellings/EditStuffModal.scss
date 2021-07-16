@@ -1,0 +1,19 @@
+.icon-delete-image {
+  position: absolute;
+  top: 7px;
+  right: 12px;
+  cursor: pointer;
+  color: red;
+}
+
+.small-image {
+  width: 104px;
+  height: 104px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: thin solid #d9d9d9;
+  background-color: '#ffffff';
+}

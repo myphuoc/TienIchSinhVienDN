@@ -1,0 +1,45 @@
+.sidebar-shared-post {
+  .post-featured {
+    float: left;
+    width: 100%;
+  
+    img {
+      width: 100%;
+    }
+  
+    @media screen and (max-width: 990px) {
+      width: 200px;
+    }
+  
+    @media screen and (max-width: 700px) {
+      width: 100%;
+    }
+  }
+  
+  .post-content-container {
+    padding-bottom: 20px;
+    
+    .post-content {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* number of lines to show */
+      -webkit-box-orient: vertical;
+
+      img {
+        display: none;
+      }
+    }
+  
+    @media screen and (max-width: 990px) {
+      padding-left: 220px;
+    }
+  
+    @media screen and (max-width: 700px) {
+      float: left;
+      padding: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}
